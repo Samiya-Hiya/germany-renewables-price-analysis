@@ -38,11 +38,11 @@ The final dataset includes 17,516 hourly observations after cleaning and filteri
  
 4. Methodology
 The analysis applies:
-1.	Correlation analysis between renewable share and price
-2.	Quartile comparison (high vs low renewable penetration)
-3.	Negative price frequency assessment
-4.	Daily price volatility analysis
-5.	Ordinary Least Squares (OLS) regression
+	Correlation analysis between renewable share and price
+	Quartile comparison (high vs low renewable penetration)
+	Negative price frequency assessment
+	Daily price volatility analysis
+	Ordinary Least Squares (OLS) regression
    
 The objective is not predictive modeling, but structural market insight.
  
@@ -81,9 +81,9 @@ These dynamics suggest that as renewable penetration rises, market design and as
  
 7. Reproducibility
 To reproduce the analysis:
-1.	Download hourly time series data from Open Power System Data (OPSD).
-2.	Filter for DE_LU zone.
-3.	Use the provided notebook:
+	Download hourly time series data from Open Power System Data (OPSD).
+	Filter for DE_LU zone.
+	Use the provided notebook:
 renewables_price_germany_2018_2020.ipynb
 
   Install required Python libraries:
@@ -91,6 +91,7 @@ o	pandas
 o	numpy
 o	matplotlib
 o	statsmodels
+
 The notebook runs sequentially without modification.
  
 8. Conclusion
